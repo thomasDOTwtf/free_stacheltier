@@ -3,7 +3,7 @@ This tool has been created to factory reset IGEL thin clients.
 Tested with firmware version 4 and 5.
 
 ## Motivation
-If you are a proud owner of a IGEL thin client terminal which has been bought trough second hand you would like to reset it.
+If you are a proud owner of a IGEL thin client whith a lost configuration you would like to reset it.
 This requires to generate a challange (terminal key) which must be send to IGEL support.
 IT people often work after sunset during hours without the IGEL service being reachable.
 That frustrated me especially because I did want to reset more than one device. 
