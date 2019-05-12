@@ -1,20 +1,20 @@
 import binascii
 import struct
 import array
-import struct
-
-from Crypto.Cipher import DES, DES3
-from Crypto import Random
-from Crypto.Util import Counter
+from Crypto.Cipher import DES
 
 def key_to_bytes(key):
     tk_sub=key.split('-',3)
     tk_bytes='{:04x}{:04x}{:04x}{:04x}'.format(int(tk_sub[0]),int(tk_sub[1]),int(tk_sub[2]),int(tk_sub[3]))
     ba = bytearray(tk_bytes.decode('hex'))
+    ba[0],ba[1] = ba[1],ba[0]
+    ba[2],ba[3] = ba[3],ba[2]
+    ba[4],ba[5] = ba[5],ba[4]
+    ba[6],ba[7] = ba[7],ba[6]
     return ba
 
 def bytes_to_key(bytes):
-    ba = bytes
+    ba = bytearray(bytes)
     ba[0],ba[1] = ba[1],ba[0]
     ba[2],ba[3] = ba[3],ba[2]
     ba[4],ba[5] = ba[5],ba[4]
