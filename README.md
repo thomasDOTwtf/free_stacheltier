@@ -63,3 +63,6 @@ Enter the key in the next dialog after entering "c"
 
 You will now be able to factory reset the device.
 Just enter "yes" when prompted.
+
+## legal notice
+All product names, trademarks and registered trademarks are property of their respective owners. All company, product and service names used in this website are for identification purposes only. Use of these names,trademarks and brands does not imply endorsement.
