@@ -1,6 +1,6 @@
 # free_stacheltier
 This tool has been created to factory reset IGEL thin clients.
-Tested with firmware version 4 and 5.
+Tested with firmware version 4, 5 and 10.
 
 ## Motivation
 If you are a proud owner of a IGEL thin client whith a lost configuration you would like to reset it.
