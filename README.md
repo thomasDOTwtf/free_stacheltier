@@ -1,6 +1,6 @@
 # free_stacheltier
 This tool has been created to factory reset IGEL thin clients.
-Tested with firmware version 4 and 5.
+Tested with firmware version 4, 5 and 10.
 
 ## Motivation
 If you are a proud owner of a IGEL thin client whith a lost configuration you would like to reset it.
@@ -9,15 +9,15 @@ IT people often work after sunset during hours without the IGEL service being re
 That frustrated me especially because I did want to reset more than one device. 
 
 ## Requirements
-* linux system
-* installed pycrypto package
-* python2.7
+* linux/darwin system
+* installed pycryptodome package
+* python3
 
 ## How to install
 
-Install pycrypto and clone the git repo:
+Install pycryptodome and clone the git repo:
 ```
-~ # pip install pycrypto
+~ # pip install pycryptodome
 ~ # git clone https://github.com/thomasDOTwtf/free_stacheltier.git
 ```
 ## How to use
